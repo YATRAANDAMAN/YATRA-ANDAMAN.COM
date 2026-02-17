@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         };
     }
-
     // Mobile navigation toggle
     var hamburger = document.querySelector('.hamburger');
     var navMenu = document.querySelector('.nav-menu');
