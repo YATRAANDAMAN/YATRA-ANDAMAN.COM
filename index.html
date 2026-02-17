@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experience Andamans - Travel Agency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Booking Form Modal -->
+<div id="bookingModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Book Your Andaman Trip!</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Contact Number" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+<!-- Floating Call and WhatsApp Buttons -->
+<div class="floating-buttons">
+    <a href="tel:+911234567890" class="call-btn"><i class="fas fa-phone"></i></a>
+    <a href="https://api.whatsapp.com/send?phone=+911234567890" class="whatsapp-btn"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo">Experience Andamans</div>
+    <div class="hamburger">&#9776;</div>
+    <ul class="nav-menu">
+        <li class="dropdown">
+            <a href="#">Packages <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="honeymoon.html">Honeymoon</a></li>
+                <li><a href="luxury.html">Luxury</a></li>
+                <li><a href="#">Budget</a></li>
+                <li><a href="#">Family</a></li>
+                <li><a href="#">Pocket Friendly</a></li>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Offbeat</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#">Water Sports <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Scuba Diving</a></li>
+                <li><a href="#">Snorkeling</a></li>
+                <li><a href="#">Sea Walk</a></li>
+                <li><a href="#">Kayaking</a></li>
+                <li><a href="#">Parasailing</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#">Islands <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Port Blair</a></li>
+                <li><a href="#">Havelock</a></li>
+                <li><a href="#">Neil</a></li>
+                <li><a href="#">Diglipur</a></li>
+                <li><a href="#">Little Andaman</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="#">Sightseeing <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Cellular Jail</a></li>
+                <li><a href="#">Ross Island</a></li>
+                <li><a href="#">Chidiatapu</a></li>
+                <li><a href="#">Radhanagar Beach</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Ferry</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+    <h1>Welcome to Experience Andamans</h1>
+    <p>Discover the best of Andaman with our exclusive tours and packages.</p>
+    <a href="honeymoon.html" class="btn">Explore Packages</a>
+</header>
+
+<!-- Featured Packages Section -->
+<section class="featured-packages">
+    <h2>Featured Packages</h2>
+    <div class="package-cards">
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?beach" alt="Honeymoon Package">
+            <h3>Honeymoon in Andamans</h3>
+            <p class="price">Starting at ₹22,440</p>
+            <a href="honeymoon.html" class="btn">View Details</a>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?luxury" alt="Luxury Package">
+            <h3>Luxury Getaway</h3>
+            <p class="price">Starting at ₹45,000</p>
+            <a href="luxury.html" class="btn">View Details</a>
+        </div>
+        <div class="card">
+            <img src="https://source.unsplash.com/400x300/?family" alt="Family Package">
+            <h3>Family Package</h3>
+            <p class="price">Starting at ₹18,000</p>
+            <a href="#" class="btn">View Details</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="ratings">
+            <p><i class="fab fa-google"></i> 4.8 Google Rating</p>
+            <p><i class="fab fa-tripadvisor"></i> 4.7 Tripadvisor Rating</p>
+        </div>
+        <div class="instagram">
+            <p><i class="fab fa-instagram"></i> 15K+ Instagram Followers</p>
+        </div>
+        <div class="awards">
+            <p><i class="fas fa-award"></i> 2023 Travel Awards Winner</p>
+        </div>
+    </div>
+    <p>&copy; 2025 Experience Andamans. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
